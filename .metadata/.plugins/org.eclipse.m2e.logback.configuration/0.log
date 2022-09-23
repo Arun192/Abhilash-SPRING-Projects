@@ -1,0 +1,9 @@
+2022-09-23 16:08:28,466 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-09-23 16:09:28,373 [Worker-4: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.seleniumexpress.hibernate:hibernate-first-project:0.0.1-SNAPSHOT @ C:\Users\User\Documents\ABHILASH-PROJECTS\Hibernate-Abhilash\Hibernate-Abhilash\hibernate-first-project\pom.xml.
+2022-09-23 16:09:30,334 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hibernate-first-project/src/main/java
+2022-09-23 16:09:30,335 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /hibernate-first-project/src/main/resources
+2022-09-23 16:09:30,340 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hibernate-first-project/src/test/java
+2022-09-23 16:09:30,611 [Worker-4: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 5 sec
+2022-09-23 16:09:34,155 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-23 16:09:34,163 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-09-23 16:09:34,190 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.

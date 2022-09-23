@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+C:\Users\User\Documents\ABHILASH-PROJECTS\SPRING-CORE\.metadata\.plugins\org.eclipse.jdt.core
+2325072332.index
+1518493453.index
+1865797976.index
+252643616.index

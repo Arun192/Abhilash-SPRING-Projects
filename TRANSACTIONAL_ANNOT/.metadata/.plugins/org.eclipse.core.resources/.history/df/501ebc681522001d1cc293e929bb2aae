@@ -1,0 +1,14 @@
+package demo;
+
+public class kaa {
+	
+	public static void main(String[] args) {
+		
+		char a = 'क';
+		System.out.println(a);
+		
+		int b = (a);
+		System.out.println(b);
+	}
+
+}

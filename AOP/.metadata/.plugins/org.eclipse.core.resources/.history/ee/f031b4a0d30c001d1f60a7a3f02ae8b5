@@ -1,0 +1,13 @@
+package dto;
+
+public class Client {
+
+	public static void main(String[] args) {
+
+		ITEmployee itEmployee = new ITEmployee();
+		itEmployee.setId(101);
+		itEmployee.setName("Arun");
+		itEmployee.setSalary(30000);
+		itEmployee.giveHike(5000);
+	}
+}

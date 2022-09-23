@@ -1,0 +1,12 @@
+package in.arun.aop;
+
+import org.aspectj.lang.annotation.Around;
+
+public class DataSourceAspect {
+
+	@Around
+	public  Object logDataSourceConnectionInfo()
+	{
+		return null;
+	}
+}

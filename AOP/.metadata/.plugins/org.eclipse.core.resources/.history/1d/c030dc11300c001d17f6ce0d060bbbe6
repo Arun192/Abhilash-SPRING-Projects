@@ -1,0 +1,9 @@
+package in.arun;
+
+import java.util.Date;
+
+public class Attendence {
+	
+	private Date date;
+
+}

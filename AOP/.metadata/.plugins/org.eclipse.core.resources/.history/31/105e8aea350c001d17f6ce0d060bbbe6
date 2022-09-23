@@ -1,0 +1,15 @@
+package in.arun;
+
+import java.lang.reflect.Constructor;
+
+public class Test {
+
+	public static void main(String[] args) throws ClassNotFoundException {
+
+		Class<?> studentInfo = Class.forName("in.arun.Student");
+		Constructor<?>[] constructor = studentInfo.getConstructors();
+		for (Constructor contruct : constructor) {
+			System.out.println();
+		}
+	}
+}

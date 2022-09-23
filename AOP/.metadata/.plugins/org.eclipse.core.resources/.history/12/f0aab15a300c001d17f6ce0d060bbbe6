@@ -1,0 +1,14 @@
+package in.arun;
+
+public class Student implements DailySession{
+	
+	private Attendence attendance;
+
+	@Override
+	public void attendLession() {
+		
+		System.out.println("Attending the session...");
+		
+	}
+
+}

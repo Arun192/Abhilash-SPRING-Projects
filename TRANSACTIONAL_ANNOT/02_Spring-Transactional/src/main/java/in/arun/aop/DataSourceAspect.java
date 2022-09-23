@@ -1,0 +1,32 @@
+package in.arun.aop;
+
+import java.lang.reflect.Proxy;
+import java.sql.Connection;
+
+import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.Around;
+import org.aspectj.lang.annotation.Aspect;
+import org.springframework.stereotype.Component;
+
+import com.mysql.cj.jdbc.ConnectionImpl;
+
+@Component
+@Aspect
+public class DataSourceAspect {
+
+	@Around("target(javax.sql.DataSource)")
+	public Object logDataSourceConnectionInfo(ProceedingJoinPoint proceedingJoinPoint) throws Throwable {
+		System.out.println("dataSource tracker" + proceedingJoinPoint.getSignature());
+		Object returnValue = proceedingJoinPoint.proceed();// getConnection //connection
+
+		if (returnValue instanceof Connection) {
+
+			Connection con = (Connection) Proxy.newProxyInstance(ConnectionImpl.class.getClassLoader(),
+					new Class[] { Connection.class }, new ConnectionInvocationHandler((Connection) returnValue));
+
+			System.out.println(returnValue);
+			return con;
+		}
+		return returnValue;
+	}
+}

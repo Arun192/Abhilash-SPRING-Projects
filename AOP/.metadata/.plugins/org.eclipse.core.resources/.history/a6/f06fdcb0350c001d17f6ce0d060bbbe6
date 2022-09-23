@@ -1,0 +1,9 @@
+package in.arun;
+
+public class Test {
+
+	public static void main(String[] args) throws ClassNotFoundException {
+		
+		Class<?> studentInfo = Class.forName("in.arun.Student");
+	}
+}

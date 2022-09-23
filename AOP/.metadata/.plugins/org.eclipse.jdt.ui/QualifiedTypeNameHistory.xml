@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="in.arun.Attendence"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="javax.management.RuntimeErrorException"/>
+    <fullyQualifiedTypeName name="in.arun.StudentProxy"/>
+    <fullyQualifiedTypeName name="in.arun.DailySession"/>
+    <fullyQualifiedTypeName name="java.lang.Class"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
+    <fullyQualifiedTypeName name="in.arun.Student"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.InvocationHandler"/>
+    <fullyQualifiedTypeName name="proxy.EmployeeSalaryInvocationHandler"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Proxy"/>
+    <fullyQualifiedTypeName name="dto.ITEmployee"/>
+    <fullyQualifiedTypeName name="dto.IEmployee"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+</qualifiedTypeNameHistroy>

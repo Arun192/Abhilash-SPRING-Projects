@@ -1,0 +1,18 @@
+package in.arun;
+
+import java.util.Date;
+
+public class Attendence {
+	
+	private Date date;
+	private boolean isPresent;
+	
+	
+	public Attendence(Date date, boolean isPresent) {
+		
+		this.date = date;
+		this.isPresent = isPresent;
+	}
+	
+
+}

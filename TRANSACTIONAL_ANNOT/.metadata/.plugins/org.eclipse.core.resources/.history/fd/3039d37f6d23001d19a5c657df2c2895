@@ -1,0 +1,17 @@
+package in.arun.aop;
+
+import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.Around;
+import org.aspectj.lang.annotation.Aspect;
+import org.springframework.stereotype.Component;
+
+@Component
+@Aspect
+public class DataSourceAspect {
+
+	@Around("target(javax.sql.DataSource)")
+	public Object logDataSourceConnectionInfo(ProceedingJoinPoint proceedingJoinPoint) {
+		System.out.println("dataSource tracker" + proceedingJoinPoint.getSignature());
+		return null;
+	}
+}

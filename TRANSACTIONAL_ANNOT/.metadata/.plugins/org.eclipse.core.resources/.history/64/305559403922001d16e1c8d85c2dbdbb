@@ -1,0 +1,19 @@
+package in.arun.aop;
+
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+import org.springframework.stereotype.Component;
+
+@Aspect
+@Component
+//what code need to be here -> Which are non functional code
+public class CallTracker {
+
+	
+	//when the logic here should run before/after/before and after
+	@Before(value = "")
+	public void logBeforeMethodCall() {
+		System.out.println("Execute this line before any method Method is starting ");
+	}
+
+}

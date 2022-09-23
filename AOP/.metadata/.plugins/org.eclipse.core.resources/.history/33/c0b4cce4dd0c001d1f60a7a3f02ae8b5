@@ -1,0 +1,20 @@
+package proxy;
+
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Method;
+
+public class EmployeeSalaryInvocationHandler implements InvocationHandler {
+
+	@Override
+	public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+		
+		//pre processong   
+		
+		//making actual cal to my service layer
+		
+		//post processing
+		
+		return null;
+	}
+
+}
